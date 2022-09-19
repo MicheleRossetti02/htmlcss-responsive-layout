@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ :root{
+    --primary: #9792E4;
+    --secondary: #0084FD;
+    --secondary-soft: #B5DDFF;
+    --accent: #FDC15F;
+    --darker: #000;
+    --dark: #333333;
+    --light: #FFFFFF;
+    
+
+ }
