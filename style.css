@@ -38,6 +38,7 @@
  /* #endregion header*/
 
  /* #region main*/
+
  /* #region info*/
 
 .row_info{
@@ -108,8 +109,99 @@ bottom: 0;
 }
 /* #endregion strategy*/
 
+/* #region testimonial*/
+
+
+.testimonial_info{
+    height: 200px;
+    background-color: #0084FD;
+}
+.testimonial_card{
+    background-color: #9792e470;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.profile{
+    height: 200px;
+    width: calc(100%/12 *3);
+    background-color: #FDC15F;
+}
+.info_profile{
+width: calc(100%/12 *9);
+height: 200px;
+background-color: aquamarine;
+}
+/* #endregion testimonial*/
+
+/* #region benefit*/
+
+.benefits{
+    background-color: var(--primary);
+    /* height: 600px; */
+ }
+.row_benefit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.benefit{
+    width: calc(100%/12 *3.5);
+    height: 150px;
+    background-color: aqua;
+    margin: 1rem;
+}
+
+/* #endregion benefit*/
+
+/* #region about us*/
+
+/* .about_us{
+    height: 500px;
+} */
+.row_about_us{
+    display: flex;
+}
+.info_about_us{
+    height: 350px;
+    width: calc(100%/12*8);
+    background-color: blueviolet;
+
+}
+.testimonial_about_us{
+    height: 350px;
+    width: calc(100%/12*4);
+background-color: blue;
+}
+/* #endregion about us*/
+
+/* #region get started*/
+.get_started{
+    background-color: var(--primary);
+}
+.info_get_started{
+    height: 500px;
+}
+/* #endregion get started*/
 
  /* #endregion main*/
+
+ /* #region footer*/
+ footer{
+    background-color: var(--dark);
+    height: 200px;
+ }
+ .row_footer{
+display: flex;
+justify-content: center;
+ }
+ .info_footer{
+    /* text-align: center; */
+    height: 200px;
+    width: 400px;
+    background-color: #0084FD;
+ }
+ /* #endregion footer*/
+
 
 
 
