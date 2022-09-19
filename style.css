@@ -23,18 +23,33 @@
 
 /* #region header*/
  header{
-    /* position: fixed; */
+    /* display: fixed; */
     background-color: var(--secondary);
-    height: 50px;
-    display: fixed;
+    /* height: 50px; */
  }
  .header_functions{
 
     display: flex;
     justify-content: space-between;
+
+ }
+ .col_1{
+    transform: translate(0px, 3px);
+
+ }
+ .col_2{
     transform: translate(0px, 10px);
 
  }
+
+ .function{
+    text-decoration: none;
+    color: white;
+    margin: 3px 10px;
+    font-size: 0.7rem;
+
+ }
+
  /* #endregion header*/
 
  /* #region main*/
@@ -56,15 +71,70 @@
     width: calc(100% /12 *3.5);
     height: 200px;
     /* background-color: var(--secondary-soft); */
+    border-radius: 10px;
+    text-align: center;
+
 
 }
 .card.demo{
     width: calc(100% /12 *7.7);
     height: 200px;
+border-radius: 10px;
+display: flex;
+}
+.function.button{
+    padding: 8px;
+       color: black;
+       background-color: white;
+       border-radius: 25px;
+    }
+    .title_demo{
+   color: var(--secondary);
+   margin-bottom: 1rem;
+    }
 
-    /* height: 200px;
-    background-color: var(--secondary-soft);
-    margin: 1rem; */
+.info_text{
+    font-size: 10px;
+    margin: 1rem 0rem;
+
+}
+
+.col_5{
+width: 250px;
+margin: 1rem 1rem;
+
+}
+.col_6{
+position:relative;
+}
+.iphone{
+    position: absolute;
+    bottom: 0;
+    width: 160px;
+    height: 150px;
+    left: 35px;
+}
+.apple_logo{
+    width: 10px;
+    /* color: white; */
+}
+.app_store{
+    color: white;
+    padding: 10px;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 150px;
+    text-align: center;
+}
+.loghi_info{
+    width: 50px;
+    margin: 1rem 0;
+
+}
+.title_info{
+    color: var(--secondary);
+
 }
 /* #endregion strategy*/
 
@@ -79,32 +149,36 @@
 .row_strategy{
 display: flex;
 justify-content: center;
+padding: 2rem;
 }
 
 .col_3{
 
 width: calc(100% /12*5);
-height: 500px;
+/* height: 500px; */
 margin: 2rem 0;
 
 }
 .image_strategy_1{
-    height: 300px;
+
     width: 100%;
-    background-color: #000;
+
 }
 .col_4{
+    background-color: white; 
+
 
     width: calc(100% /12*5);
-    height: 500px;
+    /* height: 500px; */
     margin: 2rem 0;
     position: relative;
 }
 .image_strategy_2{
     position: absolute;
-height: 300px;
-width: 100%;        
-background-color: #000; 
+/* height: 300px; */
+margin: 2rem;
+width: 100%;     
+width: -webkit-fill-available;
 bottom: 0;
 }
 /* #endregion strategy*/
