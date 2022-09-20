@@ -125,7 +125,7 @@ position:relative;
     height: 150px;
     left: 35px;
 }
-.apple_logo{
+.logo{
     width: 10px;
     /* color: white; */
 }
@@ -285,6 +285,7 @@ color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 1.5rem;
 }
 .benefit{
     width: calc(100%/12 *3.5);
@@ -325,19 +326,55 @@ font-size: 10px;
 /* .about_us{
     height: 500px;
 } */
+.about_us_title{
+    margin: 1.5rem 0rem;
+    color: var(--primary);
+    font-size: 2.5rem;
+}
+.text_about_us{
+    font-size: 0.8rem;
+}
+.text_2{
+margin: 1.5rem 0;
+}
 .row_about_us{
     display: flex;
+    margin-bottom: 2rem;
 }
 .info_about_us{
-    height: 350px;
+    /* height: 350px; */
     width: calc(100%/12*8);
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    margin-right: 20px;
 
 }
 .testimonial_about_us{
-    height: 350px;
+    /* height: 350px; */
     width: calc(100%/12*4);
-background-color: blue;
+    margin-top: 3rem;
+/* background-color: blue; */
+/* position: relative; */
+}
+.picture_about_us{
+    width: 50%;
+    border-radius: 50%;
+    /* position: absolute; */
+    transform: translate(25%, 10px);
+}
+.info_picture{
+margin: 1rem 1rem;
+color: var(--primary);
+font-size: 1rem;
+
+}
+.linkedin_link{
+    margin: 1rem 1rem;
+    color: #FFFFFF;
+    background-color: var(--primary);
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    font-size: 10px;
 }
 /* #endregion about us*/
 
