@@ -17,6 +17,11 @@
     width: 65%;
     margin: 0 auto;
  }
+ .white_text{
+    color: white;
+    font-size: 10px;
+    margin: 1rem 0rem;
+ }
 
 
  /* #endregion rules */
@@ -31,16 +36,17 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
  }
- .col_1{
+ /* .col_1{
     transform: translate(0px, 3px);
 
  }
  .col_2{
     transform: translate(0px, 10px);
 
- }
+ } */
 
  .function{
     text-decoration: none;
@@ -49,6 +55,7 @@
     font-size: 0.7rem;
 
  }
+
 
  /* #endregion header*/
 
@@ -60,6 +67,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 0 10px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .card{
 
@@ -68,19 +78,20 @@
 
 }
 .card.info{
-    width: calc(100% /12 *3.5);
-    height: 200px;
+    width: calc(100% /12 *3.8);
+    /* height: 200px; */
     /* background-color: var(--secondary-soft); */
     border-radius: 10px;
     text-align: center;
-
+padding-bottom: 50px;
 
 }
 .card.demo{
-    width: calc(100% /12 *7.7);
-    height: 200px;
+    width: calc(100% /12 *7.9);
+    /* height: 200px; */
 border-radius: 10px;
 display: flex;
+
 }
 .function.button{
     padding: 8px;
@@ -136,7 +147,7 @@ position:relative;
     color: var(--secondary);
 
 }
-/* #endregion strategy*/
+/* #endregion info*/
 
 
 /* #region strategy*/
@@ -149,7 +160,9 @@ position:relative;
 .row_strategy{
 display: flex;
 justify-content: center;
-padding: 2rem;
+padding-bottom: 2rem;
+padding-top: 3rem;
+
 }
 
 .col_3{
@@ -162,49 +175,98 @@ margin: 2rem 0;
 .image_strategy_1{
 
     width: 100%;
+    margin-bottom: 1.5rem;
 
+}
+.title_strategy_plan{
+    color: white;
+    margin-bottom: 1.5rem;
 }
 .col_4{
-    background-color: white; 
 
 
-    width: calc(100% /12*5);
+    width: calc(100% /12*4);
     /* height: 500px; */
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
     position: relative;
+    margin-left: 2rem;
 }
 .image_strategy_2{
+    background-color: white; 
+border-radius: 20px;
     position: absolute;
 /* height: 300px; */
-margin: 2rem;
-width: 100%;     
-width: -webkit-fill-available;
+margin-top: 3rem ;
+/* width: 100%;      */
+/* width: -webkit-fill-available; */
 bottom: 0;
+color: #000;
+text-align: center;
 }
+.title_app{
+    /* font-size: 1rem; */
+    margin-bottom: 1rem ;
+}
+
+.info_planning{
+    padding: 20px 20px;
+ }
+ .app_download{
+    background-color: var(--primary);
+    color: #17171A;
+    border-radius: 50%;
+    padding: 2.5px 5px;
+ }
 /* #endregion strategy*/
 
 /* #region testimonial*/
 
 
 .testimonial_info{
-    height: 200px;
-    background-color: #0084FD;
+text-align: center;
+margin: 2rem 0;
+}
+.testimonial_text{
+    font-size: 10px;
+    color: #000;
+}
+
+.title_testimonial{
+    color: var(--primary);
+    margin: 0.5rem 0;
 }
 .testimonial_card{
-    background-color: #9792e470;
     display: flex;
     margin-bottom: 2rem;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 10px;
+    justify-content: space-around;
 }
 .profile{
-    height: 200px;
+
     width: calc(100%/12 *3);
-    background-color: #FDC15F;
+
 }
 .info_profile{
-width: calc(100%/12 *9);
-height: 200px;
-background-color: aquamarine;
+width: calc(100%/12 *8);
+color: white;
+
 }
+.picture_profile{
+    width: 100%;
+    border-radius: 50%;
+
+    margin: 5px;
+}
+
+    .text_profile{
+        font-size: 0.8rem;
+    }
+    h4{
+        font: 0.8rem;
+        margin-top: 10px;
+    }
 /* #endregion testimonial*/
 
 /* #region benefit*/
@@ -213,6 +275,12 @@ background-color: aquamarine;
     background-color: var(--primary);
     /* height: 600px; */
  }
+ .befefits_title{
+    text-align: center;
+    color: white;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+ }
 .row_benefit{
     display: flex;
     flex-wrap: wrap;
@@ -220,9 +288,34 @@ background-color: aquamarine;
 }
 .benefit{
     width: calc(100%/12 *3.5);
-    height: 150px;
-    background-color: aqua;
+    /* height: 150px; */
+    background-color: white;
+    border-radius: 10px;
     margin: 1rem;
+    color: var(--primary);
+
+}
+.card_benefit{
+    margin: 1rem;
+}
+.benefit_number{
+    font-size: 2.5rem;
+}
+.title_single_benefit{
+    margin: 10px 0;
+font-size: 1rem ;
+}
+.info_benefit{
+color: var(--dark);
+font-size: 10px;
+}
+.more_benefit_info{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary);
+    padding: 2px 20px;
+    border-radius: 10px;
 }
 
 /* #endregion benefit*/
