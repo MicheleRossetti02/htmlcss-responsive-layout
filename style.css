@@ -22,16 +22,6 @@
     font-size: 10px;
     margin: 1rem 0rem;
  }
-/* .padding_demo{
-    padding: 1rem;
-    width: calc(100% /12 *8);
-
-}
-.padding{
-    padding: 1rem;
-    width: calc(100% /12 *4);
-
-} */
 
  /* #endregion rules */
 
@@ -80,26 +70,33 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.card{
+.card_demo{
 
-    background-color: var(--secondary-soft);
-    margin: 1rem 0;
+    padding: 0.5rem ;
+    width: calc(100%/12*8);
+
 
 }
-.card.info{
+.card_info{
+    width: calc(100%/12*4);
+    padding: 0.5rem ;
+}
+.info{
     /* height: 200px; */
     /* background-color: var(--secondary-soft); */
     border-radius: 10px;
     text-align: center;
 padding-bottom: 50px;
-width: calc(100%/12*4);
+background-color: var(--secondary-soft);
+height: 100%;
 
 }
-.card.demo{
+.demo{
     /* height: 200px; */
 border-radius: 10px;
 display: flex;
-width: calc(100%/12*8);
+background-color: var(--secondary-soft);
+
 
 
 }
@@ -153,6 +150,7 @@ align-items: flex-end;
 .loghi_info{
     width: 50px;
     margin: 1rem 0;
+    height: 8vh;
 
 }
 .title_info{
@@ -200,15 +198,13 @@ margin: 2rem 0;
     width: calc(100% /12*4);
     /* height: 500px; */
     /* margin: 2rem 0; */
-    position: relative;
     margin-left: 2rem;
 }
 .image_strategy_2{
     background-color: white; 
 border-radius: 20px;
-    position: absolute;
 /* height: 300px; */
-margin-top: 3rem ;
+margin-top: 10rem ;
 /* width: 100%;      */
 /* width: -webkit-fill-available; */
 bottom: 0;
@@ -299,18 +295,21 @@ color: white;
     justify-content: space-between;
     padding-bottom: 1.5rem;
 }
-.benefit{
-    width: calc(100%/12 *3.5);
+
+.card_benefit{
     /* height: 150px; */
     background-color: white;
     border-radius: 10px;
-    margin: 1rem;
+padding: 0.5rem;
     color: var(--primary);
+}
+.benefit{
+
+    width: calc(100%/12 *4);
+padding: 0.5rem;
 
 }
-.card_benefit{
-    margin: 1rem;
-}
+
 .benefit_number{
     font-size: 2.5rem;
 }
@@ -475,7 +474,107 @@ padding-top: 2rem ;
  /* #endregion footer*/
 
 
- @media screen and (max-width:768px){
+ @media screen and (max-width:810px){
+    .conteiner{
+        width: 90%;
+        padding: 1rem;
+    }
+    .demo{
+        display: flex;
+        flex-direction: column;
+    }
+    .col_5{
+        width: 90%;
+    margin: 0rem 1rem;
+    }
 
+
+
+    .row_strategy{
+        flex-direction: column;
+    }
+
+    .col_3{
+        width: 70%;
+        transform: translate(25%, 5%);
+    }
+
+    .col_4{
+        width: 70%;
+        transform: translate(25%, 5%);
+        margin-left: 0;
+    }
+    .image_strategy_2{
+        margin-top: 0;
+    }
+
+
+
+
+    .benefit {
+        width: calc(100%/12 *6);
+     }
+     }
+
+@media screen and (max-width:370px){
+
+
+.conteiner {
+ width: 100%;
+padding: 1rem;
+}
+        
+.row_info{
+    flex-direction: column;
+}
+
+.card_demo{
+    width: 100%;
+}
+.card_info{
+    width: 100%;
+}
+.col_6{
+    justify-content: center;
+}
+
+
+.col_3{
+    width: 100%;
+    transform: translate(0, 0);
+    text-align: center;
+}
+.col_4{
+    width: 100%;
+    transform: translate(0, 0);
+    text-align: center;
+}
+
+
+.testimonial_card{
+    flex-direction: column;
+}
+.profile {
+    width: 70%;
+}
+
+
+.benefit {
+    width: calc(100%/12 *12);
+}
+
+
+.row_about_us {
+
+    flex-direction: column;
+}
+
+.info_about_us{
+width: 100%;
+
+}
+
+.testimonial_about_us{
+    width: 100%;
+}
  }
-
