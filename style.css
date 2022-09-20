@@ -22,7 +22,16 @@
     font-size: 10px;
     margin: 1rem 0rem;
  }
+/* .padding_demo{
+    padding: 1rem;
+    width: calc(100% /12 *8);
 
+}
+.padding{
+    padding: 1rem;
+    width: calc(100% /12 *4);
+
+} */
 
  /* #endregion rules */
 
@@ -67,7 +76,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 0 10px;
+    /* gap: 0 10px; */
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -78,19 +87,20 @@
 
 }
 .card.info{
-    width: calc(100% /12 *3.8);
     /* height: 200px; */
     /* background-color: var(--secondary-soft); */
     border-radius: 10px;
     text-align: center;
 padding-bottom: 50px;
+width: calc(100%/12*4);
 
 }
 .card.demo{
-    width: calc(100% /12 *7.9);
     /* height: 200px; */
 border-radius: 10px;
 display: flex;
+width: calc(100%/12*8);
+
 
 }
 .function.button{
@@ -116,10 +126,12 @@ margin: 1rem 1rem;
 
 }
 .col_6{
-position:relative;
+/* position:relative; */
+display: flex;
+align-items: flex-end;
 }
 .iphone{
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 160px;
     height: 150px;
@@ -463,5 +475,7 @@ padding-top: 2rem ;
  /* #endregion footer*/
 
 
+ @media screen and (max-width:768px){
 
+ }
 
